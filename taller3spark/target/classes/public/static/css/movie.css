@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: flex;
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+h1,h2,h3{
+    color: white;
+}
+
+label{
+    font-size:larger;
+    color: blue;
+    animation: animateBg 10s linear infinite;
+}
+
+#movie{
+    margin-top: 10%;
+    position: flex;
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    outline: none;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#getMovie{
+    width: 120px;
+    height: 36px;
+    background: rgba(255, 255, 255, .5);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    transition: all .3s;
+    animation: animateBg 5s linear infinite;
+}
+
+#getMovie:hover{
+    height: 45px;
+    background: rgba(255, 255, 255, 0);
+    color: red;
+    font-size: 1.2em;
+    outline: auto;
+}
+
+
+

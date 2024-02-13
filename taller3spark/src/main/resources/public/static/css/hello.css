@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size:cover;
+    background-position: auto; 
+}
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+h3{
+    margin-top: 20%;
+    margin-left: 40%;
+    color: blue;
+    animation: animateBg 5s linear infinite;
+}

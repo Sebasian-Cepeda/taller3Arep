@@ -1,0 +1,21 @@
+
+.wrap{
+    margin-top: -20%;
+    margin-left: 20%;
+}
+
+.info{
+    margin-left: 28%;
+}
+
+.rf{
+    margin-top: -20%;
+}
+
+.searchMovie{
+    margin-left: 27%;
+}
+
+.poster{
+    animation: animateBg 1s linear infinite;
+}
